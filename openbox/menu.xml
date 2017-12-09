@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="tools">
+		<item label="the scribe">
+			<action name="Execute">
+				<execute>atom</execute>
+			</action>
+		</item>
+		<item label="another scriber">
+			<action name="Execute">
+				<execute>subl</execute>
+			</action>
+		</item>
+		<item label="godbox">
+			<action name="Execute">
+				<execute>x-terminal-emulator</execute>
+			</action>
+		</item>
+		<item label="birdview">
+			<action name="Execute">
+				<execute>x-www-browser</execute>
+			</action>
+		</item>
+		<item label="another birdview">
+			<action name="Execute">
+				<execute>firefox</execute>
+			</action>
+		</item>
+		<item label="snippysnippets">
+			<action name="Execute">
+				<execute>shutter</execute>
+			</action>
+		</item>
+		<item label="she">
+			<action name="Execute">
+				<execute>dia</execute>
+			</action>
+		</item>
+		<item label="steammmm">
+			<action name="Execute">
+				<execute>steam</execute>
+			</action>
+		</item>
+		<item label="arrr!!!">
+			<action name="Execute">
+				<execute>transmission-gtk</execute>
+			</action>
+		</item>
+		<menu id="root-menu-833146" label="storing">
+			<item label="rar">
+				<action name="Execute">
+					<execute>xarchiver</execute>
+				</action>
+			</item>
+			<item label="explorer">
+				<action name="Execute">
+					<execute>thunar</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-391647" label="imaginer">
+			<item label="virt-manager">
+				<action name="Execute">
+					<execute>virt-manager</execute>
+				</action>
+			</item>
+			<item label="vbox">
+				<action name="Execute">
+					<execute>virtualbox</execute>
+				</action>
+			</item>
+			<item label="pkt">
+				<action name="Execute">
+					<execute>/opt/pt/bin/PacketTracer7</execute>
+				</action>
+			</item>
+			<item label="gns3">
+				<action name="Execute">
+					<execute>gns3</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-321610" label="media">
+			<item label="obs">
+				<action name="Execute">
+					<execute>obs</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-11448" label="toolbox">
+			<item label="third party eye">
+				<action name="Execute">
+					<execute>teamviewer</execute>
+				</action>
+			</item>
+			<item label="winbox">
+				<action name="Execute">
+					<execute>wine .winbox.exe</execute>
+				</action>
+			</item>
+			<item label="wireless">
+				<action name="Execute">
+					<execute>wicd-gtk</execute>
+				</action>
+			</item>
+			<item label="controlling">
+				<action name="Execute">
+					<execute>remmina</execute>
+				</action>
+			</item>
+		</menu>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<separator/>
+		<menu id="root-menu-9249" label="styling">
+			<item label="the serenade">
+				<action name="Execute">
+					<execute>pavucontrol</execute>
+				</action>
+			</item>
+			<item label="obconf">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="obmenu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<item label="obkey">
+				<action name="Execute">
+					<execute>obkey</execute>
+				</action>
+			</item>
+			<item label="display-magic">
+				<action name="Execute">
+					<execute>arandr</execute>
+				</action>
+			</item>
+			<item label="panel-magic">
+				<action name="Execute">
+					<execute>tint2conf</execute>
+				</action>
+			</item>
+			<item label="reconfigure">
+				<action name="Reconfigure"/>
+			</item>
+		</menu>
+		<item label="defibrillation">
+			<action name="Restart"/>
+		</item>
+		<item label="leave the building">
+			<action name="Exit"/>
+		</item>
+		<item label="buhbye">
+			<action name="Execute">
+				<execute>shutdown -P now</execute>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>

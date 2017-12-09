@@ -1,0 +1,11 @@
+bash ~/.script/kantor.sh
+
+nm-applet &
+
+pnmixer &
+
+#compton --config ~/.config/compton.conf &
+
+tint2 &
+
+~/.fehbg &
